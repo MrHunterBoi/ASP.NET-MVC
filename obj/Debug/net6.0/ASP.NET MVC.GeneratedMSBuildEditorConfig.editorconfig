@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASP.NET_MVC
+build_property.RootNamespace = ASP.NET_MVC
+build_property.ProjectDir = D:\Stuff\Work\IT\IKNI5SEM\PIS\ASP.NET MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Stuff\Work\IT\IKNI5SEM\PIS\ASP.NET MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Equipment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVxdWlwbWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Equipment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVxdWlwbWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Equipment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVxdWlwbWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Equipment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVxdWlwbWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Equipment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEVxdWlwbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Medicine/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXE1lZGljaW5lXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Medicine/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXE1lZGljaW5lXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Medicine/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXE1lZGljaW5lXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Medicine/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXE1lZGljaW5lXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Medicine/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXE1lZGljaW5lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Patient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFBhdGllbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Patient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFBhdGllbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Patient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFBhdGllbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Patient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFBhdGllbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFBhdGllbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Procedures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFByb2NlZHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Procedures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFByb2NlZHVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Procedures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFByb2NlZHVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Procedures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFByb2NlZHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Procedures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFByb2NlZHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Staff/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFN0YWZmXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Staff/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFN0YWZmXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Staff/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFN0YWZmXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Staff/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFN0YWZmXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXFN0YWZmXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Tables/_LayoutTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVzXF9MYXlvdXRUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Stuff/Work/IT/IKNI5SEM/PIS/ASP.NET MVC/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o52kte6wi5

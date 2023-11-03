@@ -1,0 +1,73 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Proced.IndexModel
+
+@{
+    ViewData["Title"] = "Процедури";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Процедури</h1>
+
+<p>
+    <a class="btn btn-success" asp-page="Create">Додати</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Назва процедури
+            </th>
+            <th>
+                Ціна
+            </th>
+            <th>
+                Назва препарату
+            </th>
+            <th>
+                Назва обладнання
+            </th>
+            <th>
+                Ім'я пацієнта
+            </th>
+            <th>
+                Прізвище пацієнта
+            </th>
+            <th>
+                Прізвище лікаря
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Proced) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medicine.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipment.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient.First_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient.Last_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Staff.Last_Name)
+            </td>
+            <td class="btn-group-vertical">
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.IDproc">Редагувати</a>
+                <a class="btn btn-warning" asp-page="./Details" asp-route-id="@item.IDproc">Детальніше</a>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.IDproc">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

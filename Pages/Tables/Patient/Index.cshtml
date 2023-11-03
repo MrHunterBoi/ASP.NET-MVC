@@ -1,0 +1,85 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Patient.IndexModel
+
+@{
+    ViewData["Title"] = "Пацієнти";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Пацієнти</h1>
+
+<p>
+    <a class="btn btn-success" asp-page="Create">Додати</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].First_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Last_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Middle_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Disease)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Arrival_Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Discharge_Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].Ward)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient[0].LuckLevel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Patient) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.First_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Middle_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disease)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arrival_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discharge_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ward)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LuckLevel)
+            </td>
+            <td class="btn-group-vertical">
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.IDpat">Редагувати</a>
+                <a class="btn btn-warning" asp-page="./Details" asp-route-id="@item.IDpat">Детальніше</a>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.IDpat">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

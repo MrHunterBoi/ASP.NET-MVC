@@ -1,0 +1,53 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Staff.DeleteModel
+
+@{
+    ViewData["Title"] = "Видалити";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Видалити</h1>
+
+<h3>Ви абсолютно впевнені, що хочете видалити цей рядок?</h3>
+<div>
+    <h4>Персонал</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Staff.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Staff.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Staff.Last_Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Staff.Last_Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Staff.Middle_Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Staff.Middle_Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Staff.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Staff.Age)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Staff.Position)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Staff.Position)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Staff.IDstaff" />
+        <input type="submit" value="Видалити" class="btn btn-danger" />
+        <a class="nav-link" asp-page="./Index">Назад</a>
+    </form>
+</div>

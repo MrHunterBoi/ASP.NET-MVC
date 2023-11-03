@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<section>
+    <ul class="navbar-nav justify-content-center flex-row gap-3 mt-3">
+        <li>
+            <a class="btn btn-light" asp-area="" asp-page="/Tables/Equipment/Index">Обладнання</a>
+        </li>
+        <li>
+            <a class="btn btn-light" asp-area="" asp-page="/Tables/Medicine/Index">Препарати</a>
+        </li>
+        <li>
+            <a class="btn btn-light" asp-area="" asp-page="/Tables/Patient/Index">Пацієнти</a>
+        </li>
+        <li>
+            <a class="btn btn-light" asp-area="" asp-page="/Tables/Procedures/Index">Процедури</a>
+        </li>
+        <li>
+            <a class="btn btn-light" asp-area="" asp-page="/Tables/Staff/Index">Персонал</a>
+        </li>
+    </u>
+</section>
+
+@RenderBody()
+@await RenderSectionAsync("Scripts", required: false)

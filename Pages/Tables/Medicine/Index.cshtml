@@ -1,0 +1,55 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Medicine.IndexModel
+
+@{
+    ViewData["Title"] = "Препарати";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Препарати</h1>
+
+<p>
+    <a class="btn btn-success" asp-page="Create">Додати</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicine[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicine[0].Producer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicine[0].Created_Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicine[0].Expiration_Date)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Medicine) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Producer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Expiration_Date)
+            </td>
+            <td class="btn-group-vertical">
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.IDmed">Редагувати</a>
+                <a class="btn btn-warning" asp-page="./Details" asp-route-id="@item.IDmed">Детальніше</a>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.IDmed">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

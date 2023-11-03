@@ -1,0 +1,44 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Medicine.DetailsModel
+
+@{
+    ViewData["Title"] = "Деталі";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Деталі</h1>
+
+<div>
+    <h4>Препарати</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Producer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Producer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Created_Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Created_Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Expiration_Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Expiration_Date)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Model.Medicine?.IDmed">Редагувати</a>
+    <a class="nav-link" asp-page="./Index">Назад</a>
+</div>

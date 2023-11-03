@@ -1,0 +1,47 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Medicine.DeleteModel
+
+@{
+    ViewData["Title"] = "Видалити";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Видалити</h1>
+
+<h3>Ви абсолютно впевнені, що хочете видалити цей рядок?</h3>
+<div>
+    <h4>Препарати</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Producer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Producer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Created_Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Created_Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Medicine.Expiration_Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Medicine.Expiration_Date)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Medicine.IDmed" />
+        <input type="submit" value="Видалити" class="btn btn-danger" />
+        <a class="nav-link" asp-page="./Index">Назад</a>
+    </form>
+</div>

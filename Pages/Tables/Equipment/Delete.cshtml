@@ -1,0 +1,41 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Equipment.DeleteModel
+
+@{
+    ViewData["Title"] = "Видалити";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Видалити</h1>
+
+<h3>Ви абсолютно впевнені, що хочете видалити цей рядок?</h3>
+<div>
+    <h4>Equipment</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Equipment.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Equipment.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Equipment.Quantity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Equipment.Quantity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Equipment.Manufacturer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Equipment.Manufacturer)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Equipment.IDeq" />
+        <input type="submit" value="Видалити" class="btn btn-danger" />
+        <a class="nav-link" asp-page="./Index">Назад</a>
+    </form>
+</div>

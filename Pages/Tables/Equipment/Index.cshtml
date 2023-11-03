@@ -1,0 +1,49 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Equipment.IndexModel
+
+@{
+    ViewData["Title"] = "Обладнання";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Обладнання</h1>
+
+<p>
+    <a class="btn btn-success" asp-page="Create">Додати</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipment[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipment[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipment[0].Manufacturer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Equipment) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td class="btn-group-vertical">
+                <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.IDeq">Редагувати</a>
+                <a class="btn btn-warning" asp-page="./Details" asp-route-id="@item.IDeq">Детальніше</a>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.IDeq">Видалити</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

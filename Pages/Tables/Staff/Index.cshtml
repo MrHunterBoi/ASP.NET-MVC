@@ -1,0 +1,61 @@
+﻿@page
+@model ASP.NET_MVC.Pages.Tables_Staff.IndexModel
+
+@{
+    ViewData["Title"] = "Персонал";
+    Layout = "~/Pages/Tables/_LayoutTable.cshtml";
+}
+
+<h1>Персонал</h1>
+
+<p>
+    <a class="btn btn-success" asp-page="Create">Додати</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Staff[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Staff[0].Last_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Staff[0].Middle_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Staff[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Staff[0].Position)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Staff) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Middle_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+                <td class="btn-group-vertical">
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.IDstaff">Редагувати</a>
+                    <a class="btn btn-warning" asp-page="./Details" asp-route-id="@item.IDstaff">Детальніше</a>
+                    <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.IDstaff">Видалити</a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
