@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using ASP.NET_MVC.Areas.Identity.Data
+
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,11 +21,6 @@
                 <ul class="navbar-nav d-flex">
                     <li class="nav-item">
                         <a asp-area="" asp-page="/Index" class="nav-link">Головна</a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a asp-area="" asp-page="/Tables/Index" class="nav-link">Доступ до БД</a>
-
                     </li>
 
                     <partial name="_LoginPartial.cshtml" />
@@ -33,7 +33,6 @@
             @RenderBody()
         </main>
     </div>
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -4,7 +4,25 @@
     ViewData["Title"] = "Головна";
 }
 
+@using Microsoft.AspNetCore.Identity
+@using ASP.NET_MVC.Areas.Identity.Data
+
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
+
 <div class="text-center">
     <h1 class="display-4">Вітаємо на MedSpex</h1>
     <p>Файна лікарня у файному місті</p>
 </div>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    
+}
+
+else
+{
+    <div class="text-center">
+        <h1 class="display-2">Для початку роботи, будь ласка, увійдіть до облікового запису</h1>
+    </div>
+}
