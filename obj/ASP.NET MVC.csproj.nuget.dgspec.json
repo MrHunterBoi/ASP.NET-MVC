@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ASP.NET MVC\\ASP.NET MVC.csproj": {}
+    "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab7\\ASP.NET MVC.csproj": {}
   },
   "projects": {
-    "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ASP.NET MVC\\ASP.NET MVC.csproj": {
+    "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab7\\ASP.NET MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ASP.NET MVC\\ASP.NET MVC.csproj",
+        "projectUniqueName": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab7\\ASP.NET MVC.csproj",
         "projectName": "ASP.NET MVC",
-        "projectPath": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ASP.NET MVC\\ASP.NET MVC.csproj",
-        "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
-        "outputPath": "D:\\Stuff\\Work\\IT\\IKNI5SEM\\PIS\\ASP.NET MVC\\obj\\",
+        "projectPath": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab7\\ASP.NET MVC.csproj",
+        "packagesPath": "C:\\Users\\olegm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olegm\\Desktop\\IKNI\\3 year\\PIS\\lab7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\olegm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,18 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.23, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

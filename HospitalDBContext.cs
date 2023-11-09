@@ -1,5 +1,7 @@
 ﻿using ASP_API.Configs;
 using ASP_API.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace ASP_API
